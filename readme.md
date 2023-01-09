@@ -1,7 +1,9 @@
 
 ### 安装环境
 
-下载sdk: https://developer.android.com/studio/command-line/sdkmanager
+下载sdkmanager: https://developer.android.com/studio#command-line-tools-only
+
+使用说明文档：https://developer.android.com/studio/command-line/sdkmanager
 
 1. 从 Android Studio 下载页面中下载最新的“command line tools only”软件包，然后将其解压缩。
 2. 将解压缩的 cmdline-tools 目录移至您选择的新目录，例如 android_sdk。这个新目录就是您的 Android SDK 目录。
@@ -14,7 +16,7 @@
 .\sdkmanager.bat --list
 ```
 
-安装 ndk:
+安装 sdk,ndk,模拟器等:
 ```
 .\sdkmanager.bat --install 'platform-tools'
 .\sdkmanager.bat --install 'ndk;25.1.8937393'
